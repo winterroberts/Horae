@@ -82,7 +82,7 @@ public class DateTimeServices {
 	 */
 	public static int getCronHour() {
 		c = Calendar.getInstance();
-		return c.get(Calendar.HOUR_OF_DAY)-1;
+		return c.get(Calendar.HOUR_OF_DAY);
 	}
 	
 	/**
